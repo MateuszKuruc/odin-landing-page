@@ -5,3 +5,16 @@
 .hero img {
     width: 400px;
 }
+
+.item img {
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    
+}
