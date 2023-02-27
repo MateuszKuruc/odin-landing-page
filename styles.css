@@ -1,11 +1,11 @@
-* {
+{
     outline: solid red;
 }
 body {
     margin: 0;
 }
 
-.section-one {
+.section-one, .section-five {
     background-color: #1F2937;
 }
 
@@ -17,13 +17,17 @@ body {
     padding: 0 100px;
 }
 
-.header img {
-    width: 75px;
+.header {
+padding: 10px 0
+}
 
+.header img {
+    width: 80px;
+    border-radius: 40px;
 }
 
 .hero img {
-    max-width: 700px;
+    max-width: 400px;
     margin-right: 100px;
 }
 
@@ -40,6 +44,7 @@ body {
     margin-bottom: 0;
 }
 
+
 p, ul {
     font-size: 18px;
     color: #E5E7EB;
@@ -48,7 +53,8 @@ p, ul {
 .hero1 {
     display: flex;
     flex-direction: column;
-    
+    max-width: 700px;
+    margin-right: 50px;
 }
 
 .header-logo {
@@ -60,7 +66,8 @@ p, ul {
 
 .item img {
     height: 150px;
-    border-radius: 15px;;
+    border-radius: 15px;
+    border: solid #3882F6;
 }
 
 ul {
@@ -88,7 +95,7 @@ button {
     padding: 2px;
 }
 
-.section-four, button {
+.CTA, button {
     background-color: #3882F6;
 }
 
@@ -97,6 +104,10 @@ button {
     font-weight: 800;
     color: #1F2937;
     text-align: center;
+}
+
+.section-two .container {
+    margin-bottom: 50px;
 }
 
 .section-three {
@@ -115,8 +126,8 @@ button {
     padding: 0 100px;
     justify-content: center;
     gap: 16px;
-
 }
+
 
 .hero1 p {
    margin-right: 15px;
@@ -127,7 +138,7 @@ button {
 }
 
 .quote {
-    padding: 100px;
+    padding: 100px 200px;
 }
 
 .source {
@@ -135,4 +146,49 @@ button {
     justify-content: flex-end;
     font-weight: 800;
     margin-top: 10px;
+}
+
+.section-four {
+    display: flex;
+    padding: 50px 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-cta {
+    background-color: #3882F6;
+    display: flex;
+    padding: 10px 50px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container-cta button {
+    height: 25px;
+    color: #F9FAF8;
+    border: solid #F9FAF8;
+    margin-left: 50px;
+    flex-shrink: 0;
+}
+
+.section-five {
+    color:#F9FAF8;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.cta1, .cta2 {
+    color: #F9FAF8;
 }
